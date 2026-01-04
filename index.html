@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Chinese Checkers</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=1">
+    <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Chinese Checkers</h1>
+            <div class="controls">
+                <label for="playerCount">Players:</label>
+                <select id="playerCount">
+                    <option value="2" selected>2 Players</option>
+                    <option value="3">3 Players</option>
+                    <option value="4">4 Players</option>
+                    <option value="5">5 Players</option>
+                    <option value="6">6 Players</option>
+                </select>
+                <button id="resetButton">New Game</button>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <script type="module" src="App.js?v=3"></script>
+</body>
+</html>

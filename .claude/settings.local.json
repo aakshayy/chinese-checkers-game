@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial implementation of Hexagonal Chinese Checkers\n\n- Implemented hexagonal grid system using axial coordinates\n- Created interactive Chinese Checkers game for 2 players\n- Added canvas-based rendering with visual feedback\n- Implemented move validation \\(adjacent moves and jumps\\)\n- Added win condition detection\n- Created responsive UI with game controls\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh --version:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
