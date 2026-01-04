@@ -31,7 +31,7 @@ This implementation uses axial coordinates (q, r) for the hexagonal grid, provid
 
 ## Live Demo
 
-[Play the game here](https://arlik.github.io/hexagonal-chinese-checkers/)
+[Play the game here](https://aakshayy.github.io/chinese-checkers-game/)
 
 ## Technologies Used
 
