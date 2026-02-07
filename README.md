@@ -2,24 +2,25 @@
 
 A web-based implementation of Chinese Checkers demonstrating hexagonal tile operations.
 
-## Features
-
-- Hexagonal grid system using axial coordinates
-- Upto six-player Chinese Checkers game
-- Interactive canvas-based UI
-- Move validation with support for jumps
-- Win condition detection
-
 ## How to Play
 
-1. Open `index.html` in your web browser
-2. Click on a piece of your color to select it
-3. Valid moves will be highlighted:
+1. Click on a piece of your color to select it
+2. Valid moves will be highlighted:
    - Green circles: adjacent moves
    - Gold circles: jump moves
-4. Click on a highlighted position to move your piece
-5. Players alternate turns
-6. First player to move all pieces to the opposite triangle wins
+3. Click on a highlighted position to move your piece
+4. Players alternate turns
+5. First player to move all pieces to the opposite triangle wins
+
+## Run Locally with Python
+
+1. Open a terminal in the project folder
+2. Start a simple Python server:
+   ```bash
+   python -m http.server 8000
+   ```
+3. Open your browser to `http://localhost:8000`
+4. Open `index.html` from the served files
 
 ## Hexagonal Coordinate System
 
@@ -38,3 +39,11 @@ This implementation uses axial coordinates (q, r) for the hexagonal grid, provid
 - HTML5 Canvas
 - Vanilla JavaScript
 - Hexagonal grid mathematics
+
+## Features
+
+- Hexagonal grid system using axial coordinates
+- Upto six-player Chinese Checkers game
+- Interactive canvas-based UI
+- Move validation with support for jumps
+- Win condition detection
